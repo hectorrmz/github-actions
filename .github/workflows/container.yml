@@ -1,6 +1,5 @@
 name: Container
 on: push
-
 jobs:
   name: send a slack message
   uses: docker://technosophos/slack-notify
